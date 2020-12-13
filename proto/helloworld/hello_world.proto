@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package helloworld;
+
+import "google/api/annotations.proto";
+
+// Defines the import path that should be used to import the generated package
+// and the package name
+option go_package = "github.com/iamrajiv/helloworld-grpc-gateway/proto;hello_world";
+
+// Here is the overall greeting service definition where we define all our endpoints
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply) {
+    option (google.api.http) = {
+      post: "/v1/example/echo"
+      body: "*"
+    };
+  }
+}
+
+// The request message containing the user's name
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+  string message = 1;
+}
