@@ -1,7 +1,7 @@
 <div align="center">
 <img src="assets/helloworld-grpc-gateway.svg" width="400" />
 <br />
-<h1>gRPC-Gateway</h1>
+<h1>Hello World gRPC-Gateway</h1>
 <p>
 Simple hello world program using gRPC-Gateway
 </p>
