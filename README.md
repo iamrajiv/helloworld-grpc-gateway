@@ -1,4 +1,6 @@
 <div align="center">
+<img src="assets/helloworld-grpc-gateway.svg" width="400" />
+<br />
 <h1>gRPC-Gateway</h1>
 <p>
 Simple hello world program using gRPC-Gateway
@@ -21,6 +23,8 @@ Folder structure:
 ├── LICENSE
 ├── Makefile
 ├── README.md
+├── assets
+│   └── helloworld-grpc-gateway.svg
 ├── buf.gen.yaml
 ├── buf.yaml
 ├── go.mod
