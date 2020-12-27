@@ -18,7 +18,7 @@ I have added all tutorials related to it in [gRPC-Gateway documentation website]
 
 Folder structure:
 
-```sh
+```shell
 .
 ├── LICENSE
 ├── Makefile
@@ -48,13 +48,13 @@ Before running this project install all the required Go packages by running the 
 
 Start the server using the command:
 
-```sh
+```shell
 $ go run main.go
 ```
 
 Then use cURL to send HTTP requests:
 
-```sh
+```shell
 $ curl -X POST -k http://localhost:8090/v1/example/echo -d '{"name": "hello"}'
 ```
 
