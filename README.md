@@ -3,7 +3,7 @@
 <br />
 <h1>Hello World gRPC-Gateway</h1>
 <p>
-Simple hello world program using gRPC-Gateway
+Simple hello world program which uses gRPC-Gateway
 </p>
 <a href="https://github.com/iamrajiv/helloworld-grpc-gateway/network/members"><img src="https://img.shields.io/github/forks/iamrajiv/helloworld-grpc-gateway?color=0366d6&style=for-the-badge" /></a>
 <a href="https://github.com/iamrajiv/helloworld-grpc-gateway/stargazers"><img src="https://img.shields.io/github/stars/iamrajiv/helloworld-grpc-gateway?color=0366d6&style=for-the-badge" /></a>
@@ -12,7 +12,7 @@ Simple hello world program using gRPC-Gateway
 
 ## About Project
 
-It is a simple hello world program using gRPC-Gateway. This project was created when I participated in Google Season of Docs with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The reason for making this project is to make people familiarize with gRPC-Gateway and how they can use gRPC-Gateway in their project.
+It is a simple hello world program which uses gRPC-Gateway. This project was created when I participated in Google Season of Docs with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The reason for making this project is to make people familiarize with gRPC-Gateway and how they can use gRPC-Gateway in their project.
 
 I have added all tutorials related to it in [gRPC-Gateway documentation website](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/).
 
