@@ -1,8 +1,8 @@
-generate:
-	buf generate --path ./proto/helloworld/hello_world.proto
-
 clean:
 	rm proto/helloworld/*.go
+
+generate:
+	buf generate --path ./proto/helloworld/hello_world.proto
 
 install:
 	go get \
