@@ -12,7 +12,7 @@ Simple hello world program which uses gRPC-Gateway
 
 ## About
 
-It is a simple hello world program that uses gRPC-Gateway. This project was created when I participated in [Google Season of Docs 2020](https://developers.google.com/season-of-docs/docs/2020/participants/project-grpcgateway-iamrajiv) with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The reason for making this project is to make people familiarize themselves with gRPC-Gateway.
+It is a simple hello world program that uses gRPC-Gateway. This project was created when I participated in [Google Season of Docs 2020](https://github.com/iamrajiv/GSoD-2020) with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The reason for making this project is to make people familiarize themselves with gRPC-Gateway.
 
 I have added all the tutorials related to Hello World gRPC-Gateway to the [gRPC-Gateway documentation website](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/).
 
