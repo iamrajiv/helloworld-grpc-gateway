@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/helloworld-grpc-gateway.svg" height="auto" width="400" />
+<img src="assets/helloworld-grpc-gateway" height="auto" width="400" />
 <br />
 <h1>Hello World gRPC-Gateway</h1>
 <p>
