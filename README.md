@@ -7,7 +7,7 @@ Simple hello world program which uses gRPC-Gateway
 </p>
 <a href="https://github.com/iamrajiv/helloworld-grpc-gateway/network/members"><img src="https://img.shields.io/github/forks/iamrajiv/helloworld-grpc-gateway?color=0969da&style=for-the-badge" height="auto" width="auto" /></a>
 <a href="https://github.com/iamrajiv/helloworld-grpc-gateway/stargazers"><img src="https://img.shields.io/github/stars/iamrajiv/helloworld-grpc-gateway?color=0969da&style=for-the-badge" height="auto" width="auto" /></a>
-<a href="https://github.com/iamrajiv/helloworld-grpc-gateway/blob/master/LICENSE"><img src="https://img.shields.io/github/license/iamrajiv/helloworld-grpc-gateway?color=0969da&style=for-the-badge" height="auto" width="auto" /></a>
+<a href="https://github.com/iamrajiv/helloworld-grpc-gateway/blob/main/LICENSE"><img src="https://img.shields.io/github/license/iamrajiv/helloworld-grpc-gateway?color=0969da&style=for-the-badge" height="auto" width="auto" /></a>
 </div>
 
 ## About
@@ -68,4 +68,4 @@ curl -X POST -k http://localhost:8090/v1/example/echo -d '{"name": "hello"}'
 
 ## License
 
-[MIT](https://github.com/iamrajiv/helloworld-grpc-gateway/blob/master/LICENSE)
+[MIT](https://github.com/iamrajiv/helloworld-grpc-gateway/blob/main/LICENSE)
