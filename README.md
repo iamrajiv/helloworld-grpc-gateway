@@ -43,6 +43,7 @@ It is a Basic Arithmetic gRPC server that uses gRPC-Gateway and reads protobuf s
         ├── hello_world.pb.go
         ├── hello_world.pb.gw.go
         ├── hello_world.proto
+        ├── hello_world.swagger.json
         └── hello_world_grpc.pb.go
 ```
 
@@ -65,6 +66,10 @@ curl -X POST -k http://localhost:8090/v1/example/echo -d '{"name": "hello"}'
 ```shell
 {"message":"hello world"}
 ```
+
+## Swagger UI
+
+Link: [https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2](https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2)
 
 ## License
 

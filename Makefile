@@ -1,5 +1,6 @@
 clean:
 	rm proto/helloworld/*.go
+	rm proto/helloworld/*.json
 
 generate:
 	buf generate --path ./proto/helloworld/hello_world.proto
