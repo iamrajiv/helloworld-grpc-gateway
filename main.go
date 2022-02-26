@@ -14,10 +14,6 @@ import (
 
 type server struct{}
 
-func NewServer() *server {
-	return &server{}
-}
-
 func (*server) SayHello(_ context.Context, in *pbHelloWorld.HelloRequest) (*pbHelloWorld.HelloReply, error) {
 	return &pbHelloWorld.HelloReply{Message: in.Name + " world"}, nil
 }
