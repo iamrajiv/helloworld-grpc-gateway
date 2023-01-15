@@ -12,15 +12,13 @@ Simple hello world program which uses gRPC-Gateway
 
 ## About
 
-It is a simple hello world program that uses gRPC-Gateway. This project was created when I participated in [Google Season of Docs 2020](https://github.com/iamrajiv/GSoD-2020) with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The reason for making this project is to make people familiarize themselves with gRPC-Gateway.
+This project is a basic hello world program utilizing gRPC-Gateway. It was developed as part of my participation in [Google Season of Docs 2020](https://github.com/iamrajiv/GSoD-2020) with [gRPC-Gateway](https://github.com/grpc-ecosystem/grpc-gateway). The goal of this project is to introduce and familiarize individuals with gRPC-Gateway.
 
 I have added all the tutorials related to Hello World gRPC-Gateway to the [gRPC-Gateway documentation website](https://grpc-ecosystem.github.io/grpc-gateway/docs/tutorials/).
 
 To get more references about gRPC-Gateway check out [Basic Arithmetic gRPC Server](https://github.com/iamrajiv/basic-arithmetic-grpc-server).
 
-It is a Basic Arithmetic gRPC server that uses gRPC-Gateway and reads protobuf service definitions and generates a reverse-proxy server. It performs four basic operations Addition, Division, Multiplication, and Subtraction between two given integers.
-
-#### Folder structure:
+The folder structure of the project is as follows:
 
 ```shell
 .
@@ -49,27 +47,57 @@ It is a Basic Arithmetic gRPC server that uses gRPC-Gateway and reads protobuf s
 
 ## Usage
 
-Before running this project install all the required Go packages by running the command `make install`. Also, we can generate the stubs using the command `make generate` and delete the stubs using the command `make clean`.
+#### Installation
 
-Start the server using the command:
+Before running this project, we need to install the required Go packages. To do this, run the following command:
+
+```shell
+make install
+```
+
+#### Generating stubs
+
+We can generate the stubs for the project using the following command:
+
+```shell
+make generate
+```
+
+#### Cleaning stubs
+
+To delete the stubs, use the following command:
+
+```shell
+make clean
+```
+
+#### Running the server
+
+To run the server, use the following command:
 
 ```shell
 go run main.go
 ```
 
-Then use cURL to send HTTP requests:
+#### Sending HTTP Requests
+
+To send an HTTP POST request to the server, use cURL with the following command:
 
 ```shell
 curl -X POST -k http://localhost:8090/v1/example/echo -d '{"name": "hello"}'
 ```
 
+The server will respond with the following message:
+
 ```shell
 {"message":"hello world"}
 ```
 
+Note that the server runs on port 8090 and the endpoint is `/v1/example/echo`. The `name` field in the request is used in the response message.
+
 ## Swagger UI
 
-Link: [https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2](https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2)
+We can view and test the API using the Swagger UI at the following link: [https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2](https://app.swaggerhub.com/apis/iamrajiv/Hello_World_gRPC-Gateway/2).
 
 ## License
 
