@@ -11,7 +11,7 @@ option go_package = "github.com/iamrajiv/helloworld-grpc-gateway/proto;hello_wor
 // Here is the overall greeting service definition where we define all our endpoints
 service Greeter {
   // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply) {
+  rpc SayHello(HelloRequest) returns (HelloReply) {
     option (google.api.http) = {
       post: "/v1/example/echo"
       body: "*"
